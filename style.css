@@ -177,11 +177,6 @@ margin: 50px 0px 50px 0px;
 
 @media screen and (max-width: 768px) and (orientation:portrait) {
 
-    body{
-        padding-left: 10px;
-        padding-right: 50px;
-    }
-
     nav ul {
         flex-direction: column; 
         align-items: center; 
@@ -202,6 +197,7 @@ margin: 50px 0px 50px 0px;
         order: -1; 
         padding-bottom: 10px;
         opacity: 1;
+        font-size: 20px;
     }
 
     .pytlik {
