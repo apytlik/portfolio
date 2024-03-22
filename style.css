@@ -190,15 +190,15 @@ margin: 50px 0px 50px 0px;
         background-color: white;
     }
 
-    #single-column:nth-of-type(1) {
-        padding-top: 150px;
-    }
-
-    .name {
+        .name {
         order: -1; 
         padding-bottom: 10px;
         opacity: 1;
         font-size: 20px;
+    }
+
+    #single-column:nth-of-type(1) {
+        padding-top: 150px;
     }
 
     .pytlik {
