@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'parisian';
+    src: url(Fonts/PARISIAN.woff) format ('woff');
+}
+
+/* Java .name Fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+} 
+
+.name {
+    opacity: 0; 
+}
+
+.name.fadeIn {
+    animation: fadeIn 0.5s ease forwards;
+}
+/* Test .name End */
+
+
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+/* Navigation Menu */
+
+header {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.915);
+    width: 100%;
+    height: 70px;
+    padding-bottom: 10px;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+nav ul li a {
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2c2f3a;
+}
+
+nav ul li:hover a {
+    font-weight: 300;
+}
+
+.name {
+    font-family: "parisian", serif;
+    font-weight: 100;
+    font-size: 30px;
+    color: #b6cebe;
+    text-transform: uppercase;
+    }
+
+/* Links */
+
+a {
+    color: #2c2f3a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8ca193;
+    font-weight: 100;
+}
+
+/* Main Content */
+
+main {
+padding: 50px;
+}
+
+#single-column {
+    margin-bottom: 70px;
+}
+
+#two-column .left-item .right-item {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 550px;
+    height: 550px;
+}
+
+h1, .pytlik {
+    font-family: "parisian", serif;
+    font-weight: 100;
+    letter-spacing: -5px;
+    font-size: 170px;
+    color: #b6cebe;
+    text-transform: uppercase;
+    text-align: center;
+    /* transform: none scale(0.5);
+    transition: all 2s ease-in; */
+}
+
+.pytlik {
+    transition: font-size 0.1s ease; 
+}
+
+h2 {
+    font-family: "parisian", serif;
+    font-weight: 100;
+    margin-bottom: 0;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+#two-column {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+#two-column img {
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.tag {
+    font-family: "source-sans-pro", sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #b6cebe;
+    letter-spacing: 1px;
+    margin-top: 0px;
+}
+
+/* Footer Content */
+
+footer {
+    font-family: parisian, serif;
+    /* font-family: source-sans-pro, sans-serif; */
+    font-size: 15px;
+    font-weight: 100;
+    width:  100%;
+    text-align: center;
+    color: #272727;
+}
+
+footer p {
+margin: 50px 0px 50px 0px;
+}
+
+
+/* Media Query for Small Screens */
+
+@media screen and (max-width: 768px) and (orientation:portrait) {
+
+    body{
+        padding-left: 10px;
+        padding-right: 50px;
+    }
+
+    nav ul {
+        flex-direction: column; 
+        align-items: center; 
+        line-height: 35px;
+    }
+
+    header {
+        height: 150px;
+        padding-bottom: 15px;
+        background-color: white;
+    }
+
+    #single-column:nth-of-type(1) {
+        padding-top: 150px;
+    }
+
+    .name {
+        order: -1; 
+        padding-bottom: 10px;
+        opacity: 1;
+    }
+
+    .pytlik {
+        display: none; 
+    }
+
+    #two-column {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #two-column .left-item, #two-column .right-item, #single-column {
+        width: 100%;
+        max-width: 550px; 
+        margin-bottom: 30px;
+    }
+
+    #two-column img, #single-column img {
+        width: 100%;
+        max-width:100%;
+        height: auto; 
+    }
+}
+
+/* Media Query for Large Screens */
+
+/* @media only screen and (min-width: 769px) {
+
+} */

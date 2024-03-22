@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alli Pytlik | Portfolio</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kpl3fag.css">
+
+</head>
+<body>
+    <!--Navigation Menu--> 
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Work</a></li>
+            <li class="name">Allison Pytlik</li>
+            <li><a href="about.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <!-- Content starts here -->
+    <main>
+
+        <h1 class="pytlik">Allison Pytlik</h1>
+
+    <!--This is where portfolio items go -->
+
+    <section id="single-column">
+        <img src="Images/india_cover.jpg" alt="" width="1200">
+        <h2><a href="#">Centuries Unveiled</a></h2>
+        <p class="tag">Graphic Design</p>
+    </section>
+
+    <section id="two-column">
+        <div class="left-item">
+        <img src="Images/poise_cover.jpg">
+        <h2><a href="#">Poise</a></h2>
+        <p class="tag">Graphic Design, Editorial</p>
+        </div>
+
+        <div class="right-item">
+        <img src="Images/nihonga_cover.jpg">
+        <h2><a href="#">Nihonga</a></h2>
+        <p class="tag">Graphic Design, Website Design</p>
+        </div>
+</section>
+
+<section id="single-column">
+    <img src="Images/gravity_cover.jpg" alt="" width="1200">
+    <h2><a href="#">Gravity</a></h2>
+    <p class="tag">Graphic Design</p>
+</section>
+
+<section id="two-column">
+    <div class="left-item">
+    <img src="Images/books_cover.jpg" alt="" >
+    <h2><a href="#">Book Redesigns</a></h2>
+    <p class="tag">Graphic Design</p>
+    </div>
+
+    <div class="right-item">
+    <img src="Images/sydney_cover.jpg" alt="">
+    <h2><a href="#">Sydney</a></h2>
+    <p class="tag">Graphic Design</p>
+    </div>
+</section>
+
+<section id="single-column">
+    <img src="Images/haustier_cover.jpg" alt="" width="1200">
+    <h2><a href="#">Haustier</a></h2>
+    <p class="tag">Graphic Design, Brand Identity</p>
+</section>
+ 
+    </main> 
+
+<!--Footer-->
+<footer>
+    <hr>
+    <p>Website designed by Allison Pytlik</p>
+</footer>
+
+<!-- Javascript -->
+<script>
+          window.addEventListener('scroll', function() {
+            var pytlik = document.querySelector('.pytlik');
+            var name = document.querySelector('.name');
+            var scrollPosition = window.scrollY;
+
+            var threshold = 200;
+
+            var minFontSize = 20;
+            var maxFontSize = 180;
+
+            var newFontSize = maxFontSize - (scrollPosition * 0.5); 
+
+            newFontSize = Math.max(newFontSize, minFontSize);
+
+            pytlik.style.fontSize = newFontSize + 'px'; 
+
+            if (scrollPosition > threshold) {
+        pytlik.classList.add('transition');
+        name.classList.add('fadeIn');
+    } else {
+        pytlik.classList.remove('transition');
+        name.classList.remove('fadeIn');
+    }
+        });
+  </script>
+<!-- Javascript End -->
+</body>
+</html>
