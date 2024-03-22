@@ -195,6 +195,7 @@ margin: 50px 0px 50px 0px;
         padding-bottom: 10px;
         opacity: 1;
         white-space: nowrap;
+        letter-spacing: 0px;
     }
 
     #single-column:nth-of-type(1) {
