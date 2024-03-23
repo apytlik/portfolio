@@ -286,6 +286,19 @@ margin: 50px 0px 50px 0px;
         object-fit: cover; /* Maintain aspect ratio and cover the container */
     } */
 
+/*     #single-column {
+        width: 100%;
+        max-width: 550px; /* Limit the maximum width */
+        margin-bottom: 30px; /* Add some bottom margin */
+    }
+    
+    #single-column img {
+        width: 100%; /* Ensure the image fills the container horizontally */
+        height: auto; /* Allow the height to adjust proportionally */
+        aspect-ratio: 1 / 1; /* Maintain a square aspect ratio */
+        object-fit: cover; /* Ensure the entire image is visible within the container without distortion */
+    } */
+
     #single-column {
         width: 100%;
         max-width: 550px; /* Limit the maximum width */
