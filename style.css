@@ -224,12 +224,12 @@ margin: 50px 0px 50px 0px;
         overflow: hidden;
     } */
 
-/*         #two-column img, #single-column img {
+        #two-column img, #single-column img {
         width: 100%;
         max-width: 100%;
-        height: auto;
-        object-fit: cover;
-    } */
+/*         height: auto; */
+        object-fit: cover; 
+    }
 
 /*     #two-column img, #single-column img {
         width: 100%;
