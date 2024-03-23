@@ -236,10 +236,16 @@ margin: 50px 0px 50px 0px;
         object-fit: contain; /* Ensure the entire image is visible within the container without distortion */
     } */
 
-    #single-column img {
+/*     #single-column img {
         width: 100%; /* Make the image fill the width of its container */
         height: auto; /* Allow the height to adjust proportionally */
         aspect-ratio: 1 / 1; /* Maintain a square aspect ratio */
+    } */
+
+    #single-column img {
+        width: 100%; /* Ensure the image fills the container */
+        height: 100%; /* Ensure the image fills the container */
+        object-fit: cover; /* Maintain aspect ratio and cover the container */
     }
 
 /* Media Query for Large Screens */
