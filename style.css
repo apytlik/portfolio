@@ -217,11 +217,18 @@ margin: 50px 0px 50px 0px;
         margin-bottom: 30px;
     }
 
-    #two-column img, #single-column img {
+/*     #two-column img, #single-column img {
         width: 100%;
         max-width:100%;
         height: auto; 
         overflow: hidden;
+    } */
+
+        #two-column img, #single-column img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
     }
 }
 
