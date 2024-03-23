@@ -222,12 +222,12 @@ margin: 50px 0px 50px 0px;
         height: auto;
     }
 
-    #single-column img {
+/*     #single-column img {
         width: 100%;
         height: 100%;
         max-width: none; 
         max-height: none; 
-    }
+    } */
 
 /*         #single-column img {
         width: 100%; /* Make the image fill the width of its container */
@@ -246,6 +246,14 @@ margin: 50px 0px 50px 0px;
         width: 100%; /* Ensure the image fills the container */
         height: 100%; /* Ensure the image fills the container */
         object-fit: cover; /* Maintain aspect ratio and cover the container */
+    }
+
+    #single-column img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
     }
 
 /* Media Query for Large Screens */
