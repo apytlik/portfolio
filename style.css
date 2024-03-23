@@ -222,11 +222,11 @@ margin: 50px 0px 50px 0px;
         height: auto;
     }
 
-#single-column {
+/* #single-column {
     width: 100%;
     max-width: 550px; /* Limit the maximum width */
     margin-bottom: 30px; /* Add some bottom margin */
-}
+} */
 
 /* #single-column img {
     width: 100%; /* Make the image fill the container horizontally */
@@ -234,10 +234,21 @@ margin: 50px 0px 50px 0px;
     object-fit: contain; /* Ensure the entire image is visible within the container without distortion */
 } */
 
-#single-column img {
+/* #single-column img {
     width: 100%; /* Ensure the image fills the container horizontally */
     height: 100%; /* Ensure the image fills the container vertically */
     object-fit: cover; /* Maintain aspect ratio and cover the container */
+} */
+
+#single-column {
+    width: 100%;
+    max-width: 550px;
+    margin-bottom: 30px;
+}
+
+#single-column img {
+    width: 100%;
+    height: auto;
 }
 
 }
