@@ -1,7 +1,7 @@
-/* @font-face {
+@font-face {
     font-family: 'parisian';
     src: url(/Fonts/parisian-webfont.woff2) format ('woff2');
-} */
+}
 
 /* Java .name Fade-in */
 @keyframes fadeIn {
@@ -76,8 +76,8 @@ nav ul li:hover a {
     font-family: "parisian", serif;
     font-weight: 100;
 /*     font-family: "Noto Serif Display", serif;
-    font-weight: 300;
-    letter-spacing: -1px; */
+    font-weight: 300; */
+    letter-spacing: -1px;
     font-size: 30px; 
     color: #b6cebe;
     text-transform: uppercase;
