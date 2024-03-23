@@ -242,7 +242,7 @@ margin: 50px 0px 50px 0px;
         aspect-ratio: 1 / 1; /* Maintain a square aspect ratio */
     } */
 
-    #single-column img {
+/*     #single-column img {
         width: 100%; /* Ensure the image fills the container */
         height: 100%; /* Ensure the image fills the container */
         object-fit: cover; /* Maintain aspect ratio and cover the container */
@@ -254,6 +254,21 @@ margin: 50px 0px 50px 0px;
         max-width: 100%;
         max-height: 100%;
         object-fit: cover;
+    } */
+
+    #single-column {
+        width: 100%;
+        max-width: 550px; /* Limit the maximum width */
+        height: auto; /* Allow the height to adjust based on content */
+        display: flex; /* Use flexbox to center the image vertically */
+        justify-content: center; /* Center the image horizontally */
+        align-items: center; /* Center the image vertically */
+    }
+    
+    #single-column img {
+        width: 100%; /* Ensure the image fills the container horizontally */
+        height: auto; /* Allow the height to adjust proportionally */
+        max-height: 100%; /* Limit the maximum height to prevent overflow */
     }
 
 /* Media Query for Large Screens */
