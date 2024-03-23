@@ -212,8 +212,8 @@ margin: 50px 0px 50px 0px;
     }
 
     #two-column .left-item, #two-column .right-item, #single-column {
-        width: 100%;
-        max-width: 550px; 
+/*         width: 100%;
+        max-width: 550px;  */
         margin-bottom: 30px;
     }
 
