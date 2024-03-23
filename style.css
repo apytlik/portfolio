@@ -211,10 +211,15 @@ margin: 50px 0px 50px 0px;
         align-items: center;
     }
 
-    #two-column .left-item, #two-column .right-item, #single-column {
+    #two-column .left-item, #two-column .right-item {
         width: 100%;
         max-width: 550px; 
         margin-bottom: 30px;
+    }
+
+    #single-column {
+        width: 100%;
+        max-width: 550px; 
     }
 
     #two-column img, #single-column img {
