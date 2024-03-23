@@ -110,22 +110,6 @@ padding: 50px;
     height: 550px;
 }
 
-h1, .pytlik {
-    font-family: "parisian", serif;
-    font-weight: 100;
-    letter-spacing: -5px;
-    font-size: 170px;
-    color: #b6cebe;
-    text-transform: uppercase;
-    text-align: center;
-    /* transform: none scale(0.5);
-    transition: all 2s ease-in; */
-}
-
-.pytlik {
-    transition: font-size 0.1s ease; 
-}
-
 h2 {
     font-family: "parisian", serif;
     font-weight: 100;
@@ -136,15 +120,27 @@ h2 {
 
 #two-column {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 70px;
 }
 
-#two-column img {
-    width: 550px;
-    height: 550px;
-    object-fit: cover;
+/* #single-column img {
+    width: 90%;
+    justify-content: space-around;
+} */
+
+#single-column img {
+    width: 100%;
+    max-width:95%;
+    justify-content: space-around;
 }
+
+#two-column img {
+    max-width: 90%;
+    height: auto;
+    object-fit: cover;
+    justify-content: space-evenly;
+} 
  
 .tag {
     font-family: "source-sans-pro", sans-serif;
@@ -173,7 +169,7 @@ margin: 50px 0px 50px 0px;
 }
 
 
-/* Media Query for Small Screens */
+/* Media Query for Small Screens and portrait orientation */
 
 @media screen and (max-width: 768px) and (orientation:portrait) {
 
@@ -223,16 +219,32 @@ margin: 50px 0px 50px 0px;
         height: auto; 
     }
 
+    /* #two-column img {
+        width: 40vw;
+        max-width:100%;
+        height: auto; 
+        justify-content: space-around;
+    }  */
+
     #single-column img {
         width: 100%;
         max-width:100%;
         object-fit: cover;
-        aspect-ratio: 1/1;
     }
 }
 
 /* Media Query for Large Screens */
 
-/* @media only screen and (min-width: 769px) {
-
-} */
+@media only screen and (min-width: 769px) {
+    .pytlik {
+    transition: font-size 0.1s ease; 
+    font-family: "parisian", serif;
+    font-weight: 100;
+    letter-spacing: -5px;
+    font-size: 15vw;
+    color: #b6cebe;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: nowrap;
+    }
+}
