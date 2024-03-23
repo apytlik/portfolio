@@ -217,7 +217,7 @@ margin: 50px 0px 50px 0px;
         margin-bottom: 30px;
     }
 
-        #two-column img, #single-column img {
+    #two-column img, #single-column img {
         width: 100%;
         height: auto;
     }
@@ -227,6 +227,10 @@ margin: 50px 0px 50px 0px;
         height: 100%;
         max-width: none; 
         max-height: none; 
+    }
+
+        #single-column {
+        margin-bottom: 30px;
     }
 
 /* Media Query for Large Screens */
