@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: 'PARISIAN';
     src: url(/Fonts/parisian-webfont.woff2) format ('woff2');
-}
+} */
 
 /* Java .name Fade-in */
 @keyframes fadeIn {
@@ -73,10 +73,12 @@ nav ul li:hover a {
 }
 
 .name {
-    font-family: "parisian", "Noto Serif Display", serif;
-    font-weight: 100;
-    font-size: 30px;
-    letter-spacing: 
+/*     font-family: "parisian", serif;
+    font-weight: 100; */
+    font-family: "Noto Serif Display", serif;
+    font-weight: 300;
+    letter-spacing: -1px;
+    font-size: 30px; 
     color: #b6cebe;
     text-transform: uppercase;
     }
@@ -112,8 +114,11 @@ padding: 50px;
 }
 
 h2 {
-    font-family: "parisian", "Noto Serif Display", serif;
-    font-weight: 100;
+/*     font-family: "parisian", "Noto Serif Display", serif;
+    font-weight: 100; */
+    font-family: "Noto Serif Display", serif;
+    font-weight: 300;
+    letter-spacing: -1px;
     margin-bottom: 0;
     font-size: 30px;
     margin-top: 5px;
@@ -124,11 +129,6 @@ h2 {
     justify-content: space-around;
     margin-bottom: 70px;
 }
-
-/* #single-column img {
-    width: 90%;
-    justify-content: space-around;
-} */
 
 #single-column img {
     width: 100%;
@@ -156,10 +156,12 @@ h2 {
 /* Footer Content */
 
 footer {
-    font-family: parisian, "Noto Serif Display", serif;
-    /* font-family: source-sans-pro, sans-serif; */
+/*     font-family: parisian, "Noto Serif Display", serif;
+    font-weight: 100; */
+    font-family: "Noto Serif Display", serif;
+    font-weight: 300;
+    letter-spacing: -1px;
     font-size: 15px;
-    font-weight: 100;
     width:  100%;
     text-align: center;
     color: #272727;
@@ -232,9 +234,12 @@ margin: 50px 0px 50px 0px;
 @media only screen and (min-width: 769px) {
     .pytlik {
     transition: font-size 0.1s ease; 
-    font-family: "parisian", "Noto Serif Display", serif;
+/*     font-family: "parisian", "Noto Serif Display", serif;
     font-weight: 100;
-    letter-spacing: -5px;
+    letter-spacing: -5px; */
+    font-family: "Noto Serif Display", serif;
+    font-weight: 300;
+    letter-spacing: -1px;
     font-size: 15vw;
     color: #b6cebe;
     text-transform: uppercase;
