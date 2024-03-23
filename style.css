@@ -73,7 +73,7 @@ nav ul li:hover a {
 }
 
 .name {
-    font-family: "parisian", serif;
+    font-family: "parisian", "Noto Serif Display", serif;
     font-weight: 100;
     font-size: 30px;
     color: #b6cebe;
@@ -111,7 +111,7 @@ padding: 50px;
 }
 
 h2 {
-    font-family: "parisian", serif;
+    font-family: "parisian", "Noto Serif Display", serif;
     font-weight: 100;
     margin-bottom: 0;
     font-size: 30px;
@@ -155,7 +155,7 @@ h2 {
 /* Footer Content */
 
 footer {
-    font-family: parisian, serif;
+    font-family: parisian, "Noto Serif Display", serif;
     /* font-family: source-sans-pro, sans-serif; */
     font-size: 15px;
     font-weight: 100;
@@ -219,13 +219,6 @@ margin: 50px 0px 50px 0px;
         height: auto; 
     }
 
-    /* #two-column img {
-        width: 40vw;
-        max-width:100%;
-        height: auto; 
-        justify-content: space-around;
-    }  */
-
     #single-column img {
         width: 100%;
         max-width:100%;
@@ -238,7 +231,7 @@ margin: 50px 0px 50px 0px;
 @media only screen and (min-width: 769px) {
     .pytlik {
     transition: font-size 0.1s ease; 
-    font-family: "parisian", serif;
+    font-family: "parisian", "Noto Serif Display", serif;
     font-weight: 100;
     letter-spacing: -5px;
     font-size: 15vw;
