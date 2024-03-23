@@ -1,5 +1,5 @@
 /* @font-face {
-    font-family: 'PARISIAN';
+    font-family: 'parisian';
     src: url(/Fonts/parisian-webfont.woff2) format ('woff2');
 } */
 
@@ -73,11 +73,11 @@ nav ul li:hover a {
 }
 
 .name {
-/*     font-family: "parisian", serif;
-    font-weight: 100; */
-    font-family: "Noto Serif Display", serif;
+    font-family: "parisian", serif;
+    font-weight: 100;
+/*     font-family: "Noto Serif Display", serif;
     font-weight: 300;
-    letter-spacing: -1px;
+    letter-spacing: -1px; */
     font-size: 30px; 
     color: #b6cebe;
     text-transform: uppercase;
@@ -114,11 +114,11 @@ padding: 50px;
 }
 
 h2 {
-/*     font-family: "parisian", "Noto Serif Display", serif;
-    font-weight: 100; */
-    font-family: "Noto Serif Display", serif;
+    font-family: "parisian", "Noto Serif Display", serif;
+    font-weight: 100;
+/*     font-family: "Noto Serif Display", serif;
     font-weight: 300;
-    letter-spacing: -1px;
+    letter-spacing: -1px; */
     margin-bottom: 0;
     font-size: 30px;
     margin-top: 5px;
@@ -156,11 +156,11 @@ h2 {
 /* Footer Content */
 
 footer {
-/*     font-family: parisian, "Noto Serif Display", serif;
-    font-weight: 100; */
-    font-family: "Noto Serif Display", serif;
+    font-family: parisian, "Noto Serif Display", serif;
+    font-weight: 100;
+/*     font-family: "Noto Serif Display", serif;
     font-weight: 300;
-    letter-spacing: -1px;
+    letter-spacing: -1px; */
     font-size: 15px;
     width:  100%;
     text-align: center;
@@ -234,12 +234,12 @@ margin: 50px 0px 50px 0px;
 @media only screen and (min-width: 769px) {
     .pytlik {
     transition: font-size 0.1s ease; 
-/*     font-family: "parisian", "Noto Serif Display", serif;
+    font-family: "parisian", "Noto Serif Display", serif;
     font-weight: 100;
-    letter-spacing: -5px; */
-    font-family: "Noto Serif Display", serif;
+    letter-spacing: -5px;
+/*     font-family: "Noto Serif Display", serif;
     font-weight: 300;
-    letter-spacing: -1px;
+    letter-spacing: -1px; */
     font-size: 15vw;
     color: #b6cebe;
     text-transform: uppercase;
