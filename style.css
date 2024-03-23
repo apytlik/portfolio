@@ -229,11 +229,17 @@ margin: 50px 0px 50px 0px;
         max-height: none; 
     } */
 
-        #single-column img {
+/*         #single-column img {
         width: 100%; /* Make the image fill the width of its container */
         height: auto; /* Allow the height to adjust proportionally */
         aspect-ratio: 1 / 1; /* Maintain a square aspect ratio */
         object-fit: contain; /* Ensure the entire image is visible within the container without distortion */
+    } */
+
+    #single-column img {
+        width: 100%; /* Make the image fill the width of its container */
+        height: auto; /* Allow the height to adjust proportionally */
+        aspect-ratio: 1 / 1; /* Maintain a square aspect ratio */
     }
 
 /* Media Query for Large Screens */
