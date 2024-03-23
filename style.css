@@ -228,10 +228,16 @@ margin: 50px 0px 50px 0px;
     margin-bottom: 30px; /* Add some bottom margin */
 }
 
-#single-column img {
+/* #single-column img {
     width: 100%; /* Make the image fill the container horizontally */
     height: auto; /* Allow the height to adjust proportionally */
     object-fit: contain; /* Ensure the entire image is visible within the container without distortion */
+} */
+
+#single-column img {
+    width: 100%; /* Ensure the image fills the container horizontally */
+    height: 100%; /* Ensure the image fills the container vertically */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
 }
 
 }
