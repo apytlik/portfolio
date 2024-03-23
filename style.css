@@ -222,6 +222,18 @@ margin: 50px 0px 50px 0px;
         height: auto;
     }
 
+#single-column {
+    width: 100%;
+    max-width: 550px; /* Limit the maximum width */
+    margin-bottom: 30px; /* Add some bottom margin */
+}
+
+#single-column img {
+    width: 100%; /* Make the image fill the container horizontally */
+    height: auto; /* Allow the height to adjust proportionally */
+    object-fit: contain; /* Ensure the entire image is visible within the container without distortion */
+}
+
 /* Media Query for Large Screens */
 
 /* @media only screen and (min-width: 769px) {
