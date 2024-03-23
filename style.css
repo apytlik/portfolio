@@ -222,12 +222,12 @@ margin: 50px 0px 50px 0px;
         height: auto;
     }
 
-/*     #single-column img {
+    #single-column img {
         width: 100%;
         height: 100%;
         max-width: none; 
         max-height: none; 
-    } */
+    }
 
 /*         #single-column img {
         width: 100%; /* Make the image fill the width of its container */
