@@ -220,8 +220,8 @@ margin: 50px 0px 50px 0px;
     #two-column img, #single-column img {
         width: 100%;
         max-width:100%;
-        height: auto; 
         object-fit: cover;
+        aspect-ratio: 1/1;
     }
 }
 
