@@ -145,7 +145,7 @@ h2 {
     height: 550px;
     object-fit: cover;
 }
-
+ 
 .tag {
     font-family: "source-sans-pro", sans-serif;
     font-weight: 100;
@@ -215,17 +215,12 @@ margin: 50px 0px 50px 0px;
         width: 100%;
         max-width: 550px; 
         margin-bottom: 30px;
-    }
+    } 
 
     #two-column img, #single-column img {
         width: 100%;
-        height: auto;
-    }
-        #single-column img {
-        width: 100%;
-        height: 100%;
-        max-width: none; 
-        max-height: none; 
+        max-width:100%;
+        height: auto; 
     }
 }
 
