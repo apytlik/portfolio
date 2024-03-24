@@ -260,6 +260,7 @@ margin: 50px 0px 50px 0px;
 /* Media Query for Large Screens */
 
 @media only screen and (min-width: 769px) {
+
     .pytlik {
     transition: font-size 0.1s ease; 
     font-family: "parisian", "Noto Serif Display", serif;
@@ -270,5 +271,9 @@ margin: 50px 0px 50px 0px;
     text-transform: uppercase;
     text-align: center;
     white-space: nowrap;
+    }
+
+    .left-item {
+        margin-right: 20px;
     }
 }
