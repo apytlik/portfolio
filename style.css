@@ -1,6 +1,8 @@
 @font-face {
-    font-family: 'parisian';
-    src: url(/Fonts/PARISIAN.woff) format ('woff');
+    font-family: "parisian";
+    src: 
+        url("/Fonts/PARISIAN.woff") format ("woff");
+        url("Fonts/parisian-webfont.woff2") format ("woff2");
 }
 
 /* Java .name Fade-in */
